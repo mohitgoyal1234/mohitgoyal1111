@@ -233,12 +233,7 @@ h4 + div img:hover{
     transform: scale(1.2);
     rotate: (360);    
 }
-@media only screen and (max-width:620px) {
-    /* For mobile phones: */
-    .right {
-      width:100%;
-    }
-  }
+
  
 @media screen and (max-width: 575px){
 
@@ -267,7 +262,7 @@ h4 + div img:hover{
     padding-top: 40%;
     font-size: small;
 }
-}
+
 #ed{
     font-size: medium;
     font-weight: bold;
@@ -283,6 +278,7 @@ h4 + div img:hover{
 #con{
     font-size: medium;
     font-weight: bold;
+}
 }
 
 
