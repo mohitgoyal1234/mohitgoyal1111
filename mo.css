@@ -1,0 +1,294 @@
+header{
+    background-image: url(photo3.jpg);
+    background-size: cover;
+   width: 100%;
+    height: 100%;
+    
+}
+.modify{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Serif;
+}
+.font{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-shadow: 1px 1px 2px black;
+}
+.align{
+    text-align: left;
+    padding-top: 15%;
+}
+
+
+.font1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-shadow: 1px 1px 2px black;
+}
+ul li:hover{
+    background-color: blueviolet;
+    transform: scale(1);
+  
+}
+.align2{
+    text-align: center;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: large;
+}
+.b2{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    padding-top: 10px;
+}
+
+/*importamt new*/
+h2:before,
+h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+h2:before {
+  width: 43%;
+    margin-left: -50%;
+}
+h2:after {
+   width: 41%;
+    margin-right: -50%;
+}
+.b3{
+    border: 2px solid black;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow:  5px  8px orangered;
+    background-color: white;
+}
+.i1{
+    height: 300px;
+    width: 100%;
+  
+}
+.space{
+    margin: auto;
+}
+.i2{
+    padding-top: 20px;
+    padding-bottom: 20px;  
+    height: 270px;
+    width: 100%;
+  }
+
+.pa{
+     margin: 3px;
+}
+.align3{
+    text-align: center;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-weight: 500;
+    padding: 20px;
+}
+.align4{
+    text-align: center;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    color: blueviolet;
+    font-weight: bold;
+    margin-bottom: auto;
+    font-size: large;
+   
+}
+.b5{
+    border: 2px solid black;
+    height: 200px;
+    border-radius: 15px;
+    background-color: white ;
+ 
+    
+}
+.b4{
+    border: 2px solid black;
+    height: 370px;
+    border-radius: 15px;
+    background-color: white ;
+    box-shadow: 5px 10px orange;
+    
+}
+.p4{
+    padding: 10px;
+}
+h4:before,
+h4:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+h4:before {
+  width: 37%;
+    margin-left: -50%;
+}
+h4:after {
+   width: 33%;
+    margin-right: -50%;
+}
+.b6{
+    border: 2px solid black;
+    height: 70px;
+    border-radius: 15px;
+    background-color: white ;
+    box-shadow: 5px 8px orange;
+ 
+    
+}
+h5:before,
+h5:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+h5:before {
+  width: 43%;
+    margin-left: -50%;
+}
+h5:after {
+   width: 44%;
+    margin-right: -50%;
+}
+.align5{
+    text-align: center;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 30px;
+}
+.align7{
+    
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: cyan;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.align8{
+    
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 15px;
+}
+.b10{
+    border: 2px solid black;
+    height: 320px;
+    border-radius: 15px;
+    background-color: white ;
+ 
+    
+}
+.NEW{
+    margin: auto;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    background-color: orangered;
+    
+}
+body{
+  
+     background-image: url(q.jpg);
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+}
+
+h4 + div img:hover{
+    transform: scale(1.2);
+    rotate: (360);    
+}
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .right {
+      width:100%;
+    }
+  }
+ 
+@media screen and (max-width: 575px){
+
+
+  /*write your CSS-Code here*/
+  #set{
+      height: 100%;
+      width: 100%;
+
+  }
+  #go{
+      font-size: medium;
+  }
+  #y{
+      margin: auto;
+  }
+#yolo{
+    font-size: medium;
+    font-weight: bold;
+}
+#f{
+    height: auto;
+}
+#d{
+    height: 100%;
+    padding-top: 40%;
+    font-size: small;
+}
+}
+
+
+
+
+@media screen and (min-width:575px){
+    #set{
+        height: 100%;
+        width: 100%;
+    }
+    #d{
+        padding-top: 36%;
+        
+    }
+}
+@media screen and (min-width:992px)
+{
+    #set{
+        height: 320px;
+    }
+    #d{
+        padding-top: 25%;
+    }
+}
+
