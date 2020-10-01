@@ -60,11 +60,11 @@ h2:after {
     width: 40%;
 }
 h2:before {
-  width: 43%;
+  width: 25%;
     margin-left: -50%;
 }
 h2:after {
-   width: 41%;
+   width: 25%;
     margin-right: -50%;
 }
 .b3{
@@ -141,11 +141,11 @@ h4:after {
     width: 40%;
 }
 h4:before {
-  width: 37%;
+  width: 25%;
     margin-left: -50%;
 }
 h4:after {
-   width: 33%;
+   width: 25%;
     margin-right: -50%;
 }
 .b6{
@@ -168,11 +168,11 @@ h5:after {
     width: 40%;
 }
 h5:before {
-  width: 43%;
+  width: 25%;
     margin-left: -50%;
 }
 h5:after {
-   width: 44%;
+   width: 25%;
     margin-right: -50%;
 }
 .align5{
@@ -224,6 +224,7 @@ body{
   
      background-image: url(q.jpg);
     background-repeat: no-repeat;
+   background: fixed;
     
      background-size: cover;
      background-position: center;
