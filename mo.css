@@ -224,8 +224,7 @@ body{
   
      background-image: url(q.jpg);
     background-repeat: no-repeat;
-   background-position-x: fixed;
-   background-position-y: center;
+  
    background-attachment: fixed;
     
      background-size: cover;
